@@ -1,0 +1,20 @@
+{
+  "name": "relations",
+  "version": "1.0.0",
+  "description": "A project test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "browser-sync start --server --files \"*.html, *.css, *.js\""
+  },
+  "author": "Gianfranco Navas Fernandini",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.8.1",
+    "lazysizes": "^5.3.2"
+  }
+}
